@@ -15,11 +15,10 @@ let package = Package(
 		)
     ],
     dependencies: [
-		.package(
-			name: "Introspect",
-			url: "https://github.com/siteline/SwiftUI-Introspect.git",
-			.branch("master")
-		)
+		   .package(
+			    url: "https://github.com/onevcat/Kingfisher.git",
+			   exact: .init(0, 10, 0)
+		   )
     ],
     targets: [
         .target(
